@@ -52,3 +52,33 @@ drought_exp_clean <- drought_exp %>%
 ```
 
 ### Table
+
+**"Table 1. List of five Models. Each column in the table represent a different linear model that used to predict the total biomass. The row of the table include different combinations of predictors: specific leaf area, water treatment, and species name. Also, the second part of table shows the statistics of each models, include R2, R2 Adj., AIC, delta AIC, etc."**
+
+```{r}
+model0 <- lm(total_g ~ 1, # formula
+             data = drought_exp_clean) # data frame
+
+model1 <- lm(total_g ~ sla + water_treatment + species_name, # formula
+             data = drought_exp_clean) # data frame
+
+model2 <- lm(total_g ~ sla + water_treatment, # formula
+             data = drought_exp_clean) # data frame
+
+model3 <- lm(total_g ~ sla + species_name, # formula
+             data = drought_exp_clean) # data frame
+
+model4 <- lm(total_g ~ water_treatment + species_name, # formula
+             data = drought_exp_clean) # data frame
+
+modelsummary::modelsummary( # this function takes a list of models
+  list( 
+    "null" = model0, # "model name" = model object
+    "model 1" = model1,
+    "model 2" = model2,
+    "model 3" = model3,
+    "model 4" = model4
+  )
+)
+```
+
