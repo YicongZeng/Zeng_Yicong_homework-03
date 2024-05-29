@@ -82,3 +82,20 @@ modelsummary::modelsummary( # this function takes a list of models
 )
 ```
 
+b.  Write a 5-6 sentence “statistical methods” section. (8 points)
+
+**"To examine the influence of specific leaf area(SLA), water treatment, and species on total biomass, I construct 5 different models. Specifically, the null model is not predicted by any of these variables, and saturated model utilize total biomass as a function of SLA, water treatment, and species. Other models include some combination of other predictors. To determine the model that best described total biomass, I create the model selection table to select the model with lowest AIC value. To evaluate linear model assumptions, I will look at the diagnostics for the model with the lowest AIC, including residual vs fitted, QQ residuals, scale-location, and residuals vs leverage."**
+
+c.  Make a visualization of the model predictions with underlying data for your “best” model.
+
+### model selection
+
+```{r}
+model.sel(model0,
+          model1, 
+          model2, 
+          model3,
+          model4)
+```
+
+**"The best model is model4 with lowest AICc"**
