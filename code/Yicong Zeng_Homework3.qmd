@@ -99,3 +99,48 @@ model.sel(model0,
 ```
 
 **"The best model is model4 with lowest AICc"**
+
+### model predictions
+
+```{r}
+#| warning: false
+model_preds <- ggpredict(model4, 
+                         terms = c("water_treatment", 
+                                   "species_name"))
+
+model_preds_for_plotting <- model_preds %>% 
+  rename(water_treatment = x, # renaming columns to make this easier to use
+         species_name = group) 
+
+ggplot() +
+  # underlying data
+  geom_point(data = drought_exp_clean,
+             aes(x = water_treatment,
+                 y = total_g,
+                 color = water_treatment),
+             alpha = 0.5, size = 1.5) +
+  # model prediction 95% CI ribbon
+  geom_ribbon(data = model_preds_for_plotting,
+              aes(x = water_treatment, 
+                  y = predicted,
+                  ymin = conf.low,
+                  ymax = conf.high,
+                  fill = water_treatment)) +
+  # model prediction lines
+  geom_line(data = model_preds_for_plotting,
+            aes(x = water_treatment, 
+                y = predicted,
+                color = water_treatment)) +
+  # cleaner theme
+  theme_classic() +
+  labs(title = "Preliminary Model Visualization",
+      x = "Water Treatment",
+      y = "Total Biomass (g)") +
+  theme(panel.grid = element_blank(),
+        strip.text = element_text(size = 9, face = "bold"), # Facet labels
+        axis.text.x = element_text(size = 6), # Rotate x-axis text
+        legend.position = "none") +# getting rid of gridlines
+  # creating different panels for species
+  facet_wrap(~species_name) 
+```
+
