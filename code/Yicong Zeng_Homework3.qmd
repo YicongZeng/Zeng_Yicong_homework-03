@@ -144,3 +144,7 @@ ggplot() +
   facet_wrap(~species_name) 
 ```
 
+d.  Write a caption for your visualization.
+
+**"Figure 1: Model visualization of Total Biomass Predicted by Water Treatment and Species. The figure shows the predicted total biomass under well watered and drought stressed, and each facet represent different species. The rad and green dot indicate the well water and drought stress respectively. And The darkest dot in the plot represent the predicted value. Data source: Valliere, Justin; Zhang, Jacqueline; Sharifi, M.; Rundel, Philip (2019). Data from: Can we condition native plants to increase drought tolerance and improve restoration success? \[Dataset\]. Dryad. https://doi.org/10.5061/dryad.v0861f7"**
+
