@@ -148,3 +148,10 @@ d.  Write a caption for your visualization.
 
 **"Figure 1: Model visualization of Total Biomass Predicted by Water Treatment and Species. The figure shows the predicted total biomass under well watered and drought stressed, and each facet represent different species. The rad and green dot indicate the well water and drought stress respectively. And The darkest dot in the plot represent the predicted value. Data source: Valliere, Justin; Zhang, Jacqueline; Sharifi, M.; Rundel, Philip (2019). Data from: Can we condition native plants to increase drought tolerance and improve restoration success? \[Dataset\]. Dryad. https://doi.org/10.5061/dryad.v0861f7"**
 
+e.  Write a 3-4 sentence results section. (10 points)
+
+```{r}
+summary(model4)
+```
+
+**"The best predictors of total mass are water treatment and species presented in Model 4 (df = 62, F = 27.08, p \< 2.2e-16, alpha = 0.05, R2 = 0.754). On average, the well watered treatment typically will produce higher total biomass than drought stressed treatment. Furthermore, the difference species will also result in different total biomass. For instance, the estimate of Grindelia camporum (0.31335 g) shows a higher total biomass than that of Penstemon centranthifolius (0.05003 g).**
