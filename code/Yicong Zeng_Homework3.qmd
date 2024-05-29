@@ -1,6 +1,7 @@
 ---
 title: "Homework3"
 author: "Yicong Zeng"
+link: "https://github.com/YicongZeng/Zeng_Yicong_homework-03.git"
 format: pdf
 editor: visual
 ---
@@ -155,3 +156,13 @@ summary(model4)
 ```
 
 **"The best predictors of total mass are water treatment and species presented in Model 4 (df = 62, F = 27.08, p \< 2.2e-16, alpha = 0.05, R2 = 0.754). On average, the well watered treatment typically will produce higher total biomass than drought stressed treatment. Furthermore, the difference species will also result in different total biomass. For instance, the estimate of Grindelia camporum (0.31335 g) shows a higher total biomass than that of Penstemon centranthifolius (0.05003 g).**
+
+
+## Problem 2
+
+In this problem, you will create an affective visualization using your personal data in preparation for workshop during week 10.
+
+a. Describe in words what an affective visualization could look like for your personal data (3-5 sentences). 
+
+**"In affactive visualization of my personal data, I want to include a line chart about date VS. exercise duration to recording my sport planning. I will also add some gym elements, such as dumbbell and weight bench, to display aesthetics. Finally, fitting the line chart to the background of the figure to make my own affective visualization."**
+
