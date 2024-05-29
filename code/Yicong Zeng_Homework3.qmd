@@ -1,0 +1,26 @@
+---
+title: "Homework3"
+author: "Yicong Zeng"
+format: pdf
+editor: visual
+---
+
+## Set up
+
+```{r}
+#| message: false
+library(tidyverse)
+library(readxl)
+library(here)
+library(janitor)
+library(GGally)
+library(MuMIn)
+library(ggeffects)
+library(gtsummary)
+library(flextable)
+library(modelsummary)
+library(gt)
+drought_exp <- read_xlsx(path = here("data", 
+                                     "Valliere_etal_EcoApps_Data.xlsx"),
+                         sheet = "First Harvest")
+```
