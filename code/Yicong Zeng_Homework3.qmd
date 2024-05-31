@@ -166,3 +166,34 @@ a. Describe in words what an affective visualization could look like for your pe
 
 **"In affactive visualization of my personal data, I want to include a line chart about date VS. exercise duration to recording my sport planning. I will also add some gym elements, such as dumbbell and weight bench, to display aesthetics. Finally, fitting the line chart to the background of the figure to make my own affective visualization."**
 
+b. Create a sketch (on paper) of your idea. 
+
+**The sketch and draft of my idea will shows in the end of pdf.**
+
+c. Make a draft of your visualization. 
+
+**The sketch and draft of my idea will shows in the end of pdf.**
+
+d. Write an artist statement. 
+
+**"The work I create is a watercolor painting. It tried to display the relationship between date and excerise duration in my personal data, but also fitting the background element, such as dumbbell, human, and weight bench. In terms of my creation process, I first plot the date vs excerise duration in the coordinate axis. and then fitting the line chart with the weight bench to make it looks natural. However, because of my bed painting skill, when I paint the weight bench, the line chart looks not perfectly integrate with the gym element, making it quite strange."**
+
+
+## Problem 3
+
+a. Revise and summarize
+
+**"The authors trying to use the analysis of variance to explore how the two different shrimp (Atya lanipes and Xiphocaris elongata) affect the rate of size fractionation of leaf material, the localized nutrient concentrations in pools, and the rate of particulate export from the pools."**
+
+**"The figure will show in the last page"**
+
+b. Visual clarity
+
+**"The table provide some summarized statistical outcomes, such as degree of freedom, F-value, and P-value. The F and P balue are explicitly provided, allowing uss to assess the statistical significance and predict the effects."**
+
+c. Aesthetic clarity
+
+**"The authors did a great job on addressing the "visual clutter", because the table is basically simple and clean (Each variable corresponds to its own statistical outcome), using the only necessary information and row-column relationship to avoid visual confusion. Furthermore, almost all of the ink used in table is presented in variable, effect and statistical outcomes without any redundant sections, so it looks efficnecy in ink ratio.**
+
+d. Recommendations
+
