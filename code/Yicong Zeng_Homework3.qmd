@@ -1,6 +1,7 @@
 ---
 title: "Homework3"
 author: "Yicong Zeng"
+date: "2024/6/1"
 link: "https://github.com/YicongZeng/Zeng_Yicong_homework-03.git"
 format: pdf
 editor: visual
