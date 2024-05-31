@@ -197,3 +197,8 @@ c. Aesthetic clarity
 
 d. Recommendations
 
+**"1. It is better to use the different color of line styles for different treatment, because a single color make effect column a little bit compact."**
+
+**"2. I suggest to create a additional legend bar to explain the indicator of lead particle and nutrient chemistry, such as FPOM, MPOM, and CPOM", which can make it much detailed.**
+
+**"3. Add an additional line above the "Nutrient chemistry", distinguishing the ANOVA result of two part.**
